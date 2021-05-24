@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Matepedia | Inicio</title>
+    <script src="https://kit.fontawesome.com/b45c75c8be.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="png-clipart-scientific-calculator-casio-fx-991es-financial-calculator-calculator-electronics-cartoon.ico">
+    <link rel="stylesheet" type="text/css" href="Matepedia.css">
+</head>
+<body>
+    <a name="principio"></a>
+    <header>
+        <a href="index.html" class="logo">📚&nbsp;&nbsp;MATEPEDIA</a>
+        <ul>
+            <li><a href="Matepedia-Historia.html">Historia</a></li>
+            <li><a href="Matepedia-Matematicos.html">Matemáticos</a></li>
+            <li><a href="Datos-Curiosos.html">Datos Curiosos</a></li>
+            <li><a href="SobreMi.html" class="active">Sobre</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="stars.png" id="stars">
+        <img src="moon.png" id="moon">
+        <img src="mountains_behind.png" id="mountains_behind">
+        <h2 id="text">Día de la Matemática</h2>
+        <a href="#sec" id="btn">¡¡Vamos!!</a>
+        <img src="mountains_front.png" id="mountains_front">
+    </section>
+    <script>
+        let stars = document.getElementById('stars');
+        let moon = document.getElementById('moon');
+        let mountains_behind = document.getElementById('mountains_behind');
+        let mountains_front = document.getElementById('mountains_front');
+
+        window.addEventListener('scroll', function () {
+            let value = window.scrollY
+            stars.style.top = value * 0.25 + 'px';
+            moon.style.top = value * 1 + 'px';
+            mountains_behind.style.top = value * 0.5 + 'px';
+            mountains_front.style.top = value * 0 + 'px';
+        })
+    </script>
+    <a class="Inicio" style="text-align: center;" href="#principio">
+        <h1><i class="fas fa-arrow-up"></i></h1>
+    </a>
+    <div>
+    </div>
+    <div class="sec" id="sec">
+        <h2>¿Que es La Matemática?</h2>
+        <p>La matemática es la ciencia de la estructura, el orden y los patrones repetitivos que se basa en contar,
+            medir y describir las formas. Su objeto de estudio son las magnitudes, las cantidades y los cambios de estas
+            en el tiempo y el espacio.Esta ciencia parte de los axiomas y sigue el uso del razonamiento lógico; las
+            matemáticas estudian las relaciones y las propiedades de las entidades abstractas como lo son las figuras
+            geométricas, los símbolos y los números.El uso de las matemáticas ha evolucionado gracias a las cuentas, el
+            cálculo y las mediciones, así como con el estudio sistemático de la forma y los movimientos de los objetos
+            físicos, sin embargo los dos pilares fundamentales de ésta son la abstracción y el uso de la lógica en el
+            razonamiento, ya que gracias a ellos han ocurrido grandes avances en los estudios del hombre en todas las
+            ramas.<br></p><br><br>
+        <h2>¿Que estudia la Matemática?</h2>
+        <br>
+        <h3 class="subtitulo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Números</h3>
+        <br>
+        <p>Los números son la base de la matemática, una invención de los humanos con la finalidad de contar objetos. El
+            sistema decimal que usamos en la actualidad tiene sus orígenes en la India, aunque fueron dados a conocer
+            por los árabes.</p>
+        <p>Estructuras, formas y construcciones geométricas
+            Los antiguos matemáticos griegos se interesaron principalmente en el estudio de las propiedades geométricas.
+            Conceptos como recta, punto, circunferencia, polígonos y ángulos, entre otros, son de amplio uso en la
+            geometría.</p>
+        <br>
+        <br>
+        <h3 class="subtitulo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Juegos</h3>
+        <br>
+        <p>En matemática, uno de los objetos de estudio más interesantes son los juegos y deportes. Por ejemplo, los
+            matemáticos C.M. Tran y L.M. Silverberg estudiaron las trayectorias de los tiros libres en el juego de
+            basquetbol, consiguiendo las mejores condiciones para encestar:</p>
+        <p>El jugador debe lanzar la pelota de forma que gire tres veces antes de llegar al aro.
+            Debe apuntar la pelota a la parte de atrás del aro.
+            Debe lanzar con un ángulo de 52 º.
+            El jugador debe liberar la pelota lo más alto posible y siguiendo la línea que conecta al jugador con la
+            cesta.
+            El jugador debe lanzar la pelota con un movimiento corporal suave.</p>
+        <br>
+        <br>
+        <h3 class="subtitulo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Probabilidades</h3>
+        <br>
+        <p>La posibilidad de que un evento ocurra o no forma parte de las curiosidades que la matemática busca
+            descifrar. Un ejemplo clásico es el juego de los dados. Si lanzamos un dado, la probabilidad de que salga
+            cualquier lado en un dado de seis caras es un sexto (1/6). Con matemática, podemos calcular cuantas veces
+            saldrán dos seis si lanzamos dos dados, o tres cincos si lanzamos tres dados, y asi sucesivamente.</p>
+        <br>
+        <br>
+        <h3 class="subtitulo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Acertijos y enigmas</h3>
+        <br>
+        <p>Muchos de los problemas desconocidos se tratan como acertijos o problemas de lógica. ¿Qué pasa si arreglamos
+            los dígitos del número 6174 de mayor a menor y luego de menor a mayor, y los restamos entre sí? Quedaría
+            algo de la siguiente forma:</p>
+        <br>
+        <p>7641-1467=6174.</p>
+        <br>
+        <p>Volvemos a obtener el mismo número: 6174. Esto fue descubierto por el matemático indio Dattatreya Ramachandra
+            Kaprekar (1905-1986) quién se caracterizó por vivir jugando con acertijos.</p>
+        <br>
+        <br>
+        <h3 class="subtitulo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Patrones y sucesiones</h3>
+        <br>
+        <p>Los patrones y las sucesiones como eventos repetitivos son aspectos que llaman la atención en general a los
+            seres humanos. Por ejemplo, se han hecho modelos matemáticos para analizar patrones de tráfico de
+            automóviles. Esto permite programar los semáforos para agilizar el flujo y mejorar la circulación.</p>
+    </div>
+    <div style="text-align: center;">
+        <div class="videogeneral">
+            <div class="InformacionVideo">
+                <h2>La Importancia de las Matemáticas</h2>
+                <h3>Canal&nbsp; | &nbsp;AprendamosJuntos</h3>
+                <h3>11 - Junio - 2018</h3>
+                <h3><a href="https://www.youtube.com/watch?v=Cwq4dRBWcr8" target="_blank">Link del video | presionarme :D</a>
+                </h3>
+                <br>
+                <iframe width="710" height="465" src="https://www.youtube.com/embed/Cwq4dRBWcr8"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="sec2">
+                <hr color="red" size=8 width="100%" style="border-radius: 50px; position: relative;"><br>
+                <h2>Sobre</h2>
+                <p>Pagina web hecha por Joan Sebastián Cardozo Salinas<br>El diseño se tomo de varios videos de Online
+                    Tutorials, la pagina se registra a mi derecho, y gran parte del diseño a derecho de "Online
+                    Tutorials" todo con fines educativos</p>
+                    <ul class="redes">
+                        <li><a href="https://www.facebook.com/joansebastian.cardozosalinas.925/?viewas=&show_switched_toast=false" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/CarozoJoan" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://steamcommunity.com/id/Pinto_Gamer64/" target="_blank"><i class="fab fa-steam"></i></a></li>
+                    </ul>
+                    <br>
+            </div>
+            <div class="links">
+                <hr color="red" size=8 width="100%" style="border-radius: 50px; position: relative;"><br>
+                <h2 style="color: white;">Algunos Links</h2>
+                <br>
+                <ul style="color: #999;">
+                    <li><a href="Calculadora.html">Calculadora</a></li>
+                    <li><a href="https://matepedia.000webhostapp.com/SobreMi.html#Sobre_la_pagina">Sobre la Pagina</a></li>
+                    <li><a href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" target="_blank">Fuentes</a></li>
+                    <li><a href="Terminos y Condiciones.pdf" target="_blank">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            <div class="Contacto">
+                <hr color="red" size=8 width="100%" style="border-radius: 50px; position: relative;"><br>
+                <h2 style="color: white;">Contacto</h2>
+                <ul class="info" style="color: white;">
+                    <li>
+                        <span><i class="fab fa-whatsapp"></i>&nbsp;&nbsp;Whatsapp<br><a href="+57 322 4004147"
+                                target="_blank" style="color: #fff; text-decoration: none;">+57 322 4004147</span>
+                    </li>
+                    <li>
+                        <span><i class="fas fa-envelope-open-text"></i>&nbsp;&nbsp;Correo Electrónico<br><a
+                                href="sebascardozo13@outlook.com" target="_blank"
+                                style="color: #fff; text-decoration: none;">sebascardozo13@outlook.com</a></span>
+                    </li>
+                    <li>
+                        <span><i class="fab fa-discord"></i>&nbsp;&nbsp;discord<br>Pinto_Gamer64#1216</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2021 Joan Cardozo. All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
